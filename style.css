@@ -1,147 +1,60 @@
+
 /* style.css */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  margin: 0;
-  padding: 20px;
-  color: #333;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 200px;
+    color: #333;
+  }
+  
+  fieldset {
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: bisque;
+  }
+  
+  legend {
+    background-color: #efefef;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="checkbox"] {
+    margin-top: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #1e862f;
+    color: bisque;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
 }
-
-fieldset {
-  border: 2px solid #ddd;
-  padding: 20px;
-  margin-bottom: 20px;
-  background: #fff;
-}
-
-legend {
-  background-color: #efefef;
-  padding: 5px 10px;
-  border: 1px solid #ddd;
-  color: #333;
-}
-
-label {
-  display: block;
-  margin-top: 10px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-select,
-textarea {
-  width: calc(100% - 22px);
-  padding: 10px;
-  margin-top: 5px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-input[type="checkbox"] {
-  margin-top: 10px;
-}
-
-button[type="submit"] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-button[type="submit"]:hover {
-  background-color: #45a049;
-}
-
-textarea {
-  resize: vertical;
-}
-
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8"> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Form with Semantic HTML</title>
-</head>
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5FAlSQMZ4j8pPa4sp0ZB4K?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
- 
-<body>
-<div>
-    <h1>form for collecting info</h1>
-<main>
-<section>
-    <<iframe width="500" height="200" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen img src="https://cdn.phenompeople.com/CareerConnectResources/SHUTUS/images/dei-update-1652357997456.png" alt="the embeed photo" style="height: 150px; width: 180px"></iframe>
-
-</section>
-<section>
-    <iframe width="500" height="200" src="https://www.youtube.com/embed/r7dAblKT2Js" title="Burna Boy x Omah Lay x Rema x Ruger - Take Off  &quot;FREE AFRO BEAT&quot; (Produced by Ash Reborn Beats)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-</section>
-
-
-
-
-
-
-    <form>
-    
-        
-        <fieldset>
-            <legend>Personal Details</legend>
-        
-        <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" name="fullname"required><br><br>
-    
-        <label for="email">Email:</label>
-            <input type="email" id="email" name="email"required><br><br>
-    
-        <label for="gender">Gender:</label>
-            <select id="gender" name="gender">
-                <option select="select">Select:</option>
-                <option select="male">Male:</option>
-                <option select="female">Female:</option>
-                <option select="other">Other:</option>
-            </select><br><br>
-        
-        </fieldset>
-        
-        <fieldset>
-            <legend>Private Details</legend>
-        <label for="password">Password:</label>
-            <input type="password" id="password" name="password"required><br><br>
-        </fieldset>
-
-        <fieldset>
-            <legend>Other Details</legend>
-        <label for="newsletter">Newsletter:</label>
-            <input type="checkbox" id="newsletter" name="newsletter"> <br><br>
-
-        <label for="comment">Comment</label>  
-           <textarea id="comments" name="comments" rows="4"></textarea>
-        </fieldset><br><br>
-        
-        <button type="submit" >Submit</button>
-    </form>
-</main> 
-<aside>
-    <p>side bar</p>
-    <p>
-        This is an example of a side bar. Trial.
-
-    </p>
-</aside>
-</div>
-<footer>
-    <p>this is our footer</p> 
-</footer>
-</body>
-</html>    
-
-
-
-
+  
+  textarea {
+    resize: vertical;
+  }
+  
