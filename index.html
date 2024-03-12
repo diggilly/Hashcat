@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form with Semantic HTML</title>
+
+</head>
+<body>
+  
+  <fieldset>
+      <legend>Personal Information</legend>
+      
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required><br><br>
+      
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+      
+      <label for="identification">Identification Number:</label>
+      <input type="text" id="identification" name="identification" required><br><br>
+      
+      <label for="gender">Select Your Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="select">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select><br><br>
+       </fieldset>
+      
+        <fieldset>
+              <legend>Other information</legend>
+      
+      <label for="comment">Comment:</label>
+      <textarea id="comment" name="comment" cols="30" rows="5"></textarea><br><br>
+      <input type="checkbox" id="newsletter" name="newsletter">
+       <label for="newsletter">Subscribe to Newsletter:</label><br></br>
+      
+      <input type="checkbox" id="checkbox">
+      <label for="Terms and Conditions">You agree with terms and conditions</label>
+      
+        </fieldset>
+      <br><br>
+      <button type="submit">submit</button>
+   
+  </form>
+</body>
+</html>
